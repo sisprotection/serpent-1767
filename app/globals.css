@@ -153,6 +153,32 @@
   }
 }
 
+.audit-input {
+  width: 100%;
+  border: 1px solid #5b421d;
+  background: #100e09;
+  padding: 0.65rem 0.75rem;
+  color: #e9b653;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.7rem;
+  outline: none;
+}
+
+.audit-input:focus {
+  border-color: #d18c28;
+  box-shadow: 0 0 0 1px #d18c28, 0 0 16px rgb(209 140 40 / 12%);
+}
+
+.metric-input {
+  width: 4rem;
+  border: 1px solid #513a19;
+  background: #100e09;
+  padding: 0.4rem 0.5rem;
+  color: #e9b653;
+  text-align: center;
+  outline: none;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
